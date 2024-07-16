@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RouteSummitTask.DAL", "Rout
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RouteSummitTask.BLL", "RouteSummitTask.BLL\RouteSummitTask.BLL.csproj", "{59696466-7618-43EA-879E-2C36A00468D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteSummitTask.Test", "RouteSummitTask.Test\RouteSummitTask.Test.csproj", "{CFAE77C7-C8C1-435F-9AE9-D47F5DBB66D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RouteSummitTask.Test", "RouteSummitTask.Test\RouteSummitTask.Test.csproj", "{CFAE77C7-C8C1-435F-9AE9-D47F5DBB66D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

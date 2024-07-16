@@ -79,7 +79,7 @@ namespace RouteSummitTask.PL.Controllers
             var order = await _unitOfWork.OrderRepository.
                 GetCustomerOrderDetailsAsync(orderId, customerId);
             if (order == null) return NotFound();
-            return Ok(order);
+            return Ok(_mapper.Map<OrderDto>(order));
         }
 
         [HttpGet]
